@@ -9,7 +9,7 @@
 }
 
 :root {
-  --c: no-repeat linear-gradient(#333 0 0);
+  --c: no-repeat linear-gradient(theme(colors.stone.800) 0 0);
 }
 
 .loader {
