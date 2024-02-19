@@ -77,7 +77,7 @@ export default function CreateOrder() {
 
         <div>
           <input type="hidden" name="cart" value={JSON.stringify(cart)} />
-          <Button disabled={isSubmitting}>
+          <Button disabled={isSubmitting} type="primary">
             {isSubmitting ? "loading..." : "Order now"}
           </Button>
         </div>
