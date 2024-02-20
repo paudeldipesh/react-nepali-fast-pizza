@@ -14,7 +14,6 @@ export default function AppLayout() {
 
       <div className="my-10 overflow-y-scroll">
         <main className="mx-auto max-w-3xl">
-          <h1>Content</h1>
           <Outlet />
         </main>
       </div>
